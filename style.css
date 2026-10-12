@@ -1,0 +1,86 @@
+ body {
+      font-family: Arial, sans-serif;
+      background-color:   skyblue;
+      color: black;
+    }
+ 
+    .page-header {
+      text-align: center;
+      margin: 0;
+      margin-top: 20px;
+     background-image: linear-gradient(to right,orange, white,green);
+      background-repeat: repeat;
+      background-position: top center;
+        background-size: cover;
+        height: 80px;
+        width: 100%;
+    }
+
+ 
+    .intro {
+      width: 800px;
+      margin: 20px auto;
+      padding: 15px;
+      border: 2px solid darkblue;
+      background-color: #ffffff;
+    }
+ 
+    .routine-card {
+      width: 250px;
+      height: 260px;
+      float: left;
+      margin: 20px;
+      padding: 18px;
+      border: 3px solid seagreen;
+      background-color: #ffffff;
+      transition: transform 0.3s ease;
+    }
+ 
+    .routine-card:hover {
+      transform: rotate(16deg);
+    }
+ 
+    .routine-card h2 {
+      color: darkblue;
+      font-size: 22px;
+    }
+ 
+    .routine-card p {
+      font-size: 15px;
+      line-height: 1.5;
+    }
+ 
+    .time {
+      color: darkred;
+      font-weight: bold;
+    }
+ 
+    .clear-section {
+      clear: both;
+    }
+ 
+    .note {
+      width: 800px;
+      margin: 20px auto;
+      padding: 15px;
+      border: 2px dashed orange;
+      background-color: #fff8e1;
+      animation: twinkle 1s infinite alternate;
+    }
+    @keyframes twinkle {
+  from { background-color: yellow; }
+  to   { background-color: red;  }
+}
+
+    .badge {
+      display: inline-block;
+      padding: 5px 10px;
+      background-color: darkorange;
+      color: white;
+      font-weight: bold;
+      border-radius: 5px;
+      margin-top: 10px;
+      transform: rotate(10deg);
+    }
+
+
